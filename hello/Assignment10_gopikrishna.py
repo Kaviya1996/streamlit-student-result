@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 
 # Page Configuration
-#st.set_page_config(
-#    page_title="Multi-Sheet Excel Data Integration",
-#    page_icon="📊",
-#    layout="wide"
-#)
+st.set_page_config(
+    page_title="Multi-Sheet Excel Data Integration",
+    page_icon="📊",
+    layout="wide"
+)
 
 st.title("📊 Automated Multi-Sheet Excel Data Integration")
 st.write("Upload one or more Excel files (.xlsx) and merge all sheets into a single CSV file.")
