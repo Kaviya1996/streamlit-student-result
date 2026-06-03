@@ -28,31 +28,11 @@ def run() -> None:
                     dir_path / "hello.py", title="Hello", icon=":material/waving_hand:"
                 ),
                 st.Page(
-                    dir_path / "dataframe_demo.py",
-                    title="DataFrame demo",
-                    icon=":material/table:",
-                ),
-                st.Page(
-                    dir_path / "plotting_demo.py",
-                    title="Plotting demo",
-                    icon=":material/show_chart:",
-                ),
-                st.Page(
-                    dir_path / "mapping_demo.py",
-                    title="Mapping demo",
-                    icon=":material/public:",
-                ),
-		st.Page(
-                    dir_path / "animation_demo.py",
-                    title="Animation demo",
-                    icon=":material/animation:",
-                ),
-		st.Page(
                     dir_path / "mychatbot.py",
                     title="ChatBot",
                     icon=":material/chat:",
                 ),
-		st.Page(
+				st.Page(
                     dir_path / "Python Assignment8_gopikrishna.py",
                     title="Regulur Expression",
                     icon="🔎",
@@ -61,6 +41,16 @@ def run() -> None:
                     dir_path / "studentresultnew.py",
                     title="Student Result",
                     icon="🎯",
+                ),
+				st.Page(
+                    dir_path / "Uploading Files.py",
+                    title="Uploading Files",
+                    icon=":material/upload:",
+                ),
+                st.Page(
+                    dir_path / "Assignment10_gopikrishna.py",
+                    title="Automated Multi-Sheet Excel",
+                    icon="🔗",
                 ),
 		
             ]
